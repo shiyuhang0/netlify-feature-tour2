@@ -10,7 +10,7 @@ export default async () => {
     hostname: "gateway01.us-east-1.dev.shared.aws.tidbcloud.com",
     username: "3TergS6ynJ1snx6.root",
     db: "test",
-    password: Deno.env.get('PASSWORD'),
+    password: Netlify.env.get('PASSWORD'),
     port: 4000,
     tls: {
       mode: TLSMode.VERIFY_IDENTITY,
