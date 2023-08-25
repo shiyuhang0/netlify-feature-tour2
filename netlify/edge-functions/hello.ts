@@ -1,4 +1,4 @@
-import { connect } from '@shiyuhang0/serverless'
+import { connect } from "npm:@shiyuhang0/serverless"
 
 export default async () => {
   const conn = connect({url: process.env.DATABASE_URL})
