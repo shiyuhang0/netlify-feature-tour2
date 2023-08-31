@@ -15,6 +15,6 @@
     "astro": "^2.0.0"
   },
   "dependencies": {
-    "@shiyuhang0/serverless": "^0.2.1"
+    "@shiyuhang0/serverless": "^0.3.2"
   }
 }
