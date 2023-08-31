@@ -22,7 +22,7 @@ import { connect } from 'https://esm.sh/@shiyuhang0/serverless'
 
 export default async () => {
   const conn = connect({url: Netlify.env.DATABASE_URL})
-  const result = await conn.execute('select * from test.test')
+  const result = await conn.execute('show tables')
   return new Response(JSON.stringify(result));
 }
 
