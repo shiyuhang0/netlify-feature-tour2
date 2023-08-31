@@ -17,7 +17,7 @@
 //   return new Response(JSON.stringify(result));
 // }
 
-import { connect } from '@shiyuhang0/serverless'
+import { connect } from 'https://esm.sh/@shiyuhang0/serverless'
 
 
 export default async () => {
